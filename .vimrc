@@ -20,7 +20,6 @@ set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
 set paste
-set autoindent                  " Enabile Autoindent
 set backspace=indent,eol,start  " Makes backspace key more powerful.
 set incsearch                   " Shows the match while typing
 set hlsearch                    " Highlight found searches
