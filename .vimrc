@@ -20,8 +20,8 @@ set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
 set paste
-set shiftwidth=4		" Indentation space
-set tabstop=4			" Tabstop space
+set shiftwidth=4				" Indentation space
+set tabstop=4					" Tabstop space
 set backspace=indent,eol,start  " Makes backspace key more powerful.
 set incsearch                   " Shows the match while typing
 set hlsearch                    " Highlight found searches
@@ -44,6 +44,8 @@ set pumheight=10                " Completion window max size
 set nocursorcolumn              " Do not highlight column (speeds up highlighting)
 set nocursorline                " Do not highlight cursor (speeds up highlighting)
 set lazyredraw                  " Wait to redraw
+set wildmenu					" Show a menu when using tab completion
+set scrolloff=10				" Number of lines from the top when Z command is typed
 
 if has('unnamedplus')
   set clipboard^=unnamed
