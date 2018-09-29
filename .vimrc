@@ -21,6 +21,7 @@ set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
 set paste
 set shiftwidth=4		" Indentation space
+set tabstop=4			" Tabstop space
 set backspace=indent,eol,start  " Makes backspace key more powerful.
 set incsearch                   " Shows the match while typing
 set hlsearch                    " Highlight found searches
