@@ -20,7 +20,7 @@ set ttyscroll=3                 " Speedup scrolling
 set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
-set paste
+set paste                       " Allow text pasting
 set shiftwidth=4				" Indentation space
 set tabstop=4					" Tabstop space
 set backspace=indent,eol,start  " Makes backspace key more powerful.
@@ -28,6 +28,7 @@ set incsearch                   " Shows the match while typing
 set hlsearch                    " Highlight found searches
 set noerrorbells                " No beeps
 set number                      " Show line numbers
+set relativenumber				" Show relative line numbers
 set showcmd                     " Show me what I'm typing
 set noswapfile                  " Don't use swapfile
 set nobackup                    " Don't create annoying backup files
