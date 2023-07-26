@@ -1,12 +1,3 @@
-call plug#begin()
-Plug 'fatih/vim-go'
-Plug 'fatih/molokai'
-"Plug 'Shougo/deoplete.nvim'
-"Plug 'roxma/nvim-yarp'
-"Plug 'roxma/vim-hug-neovim-rpc'
-call plug#end()
-"let g:deoplete#enable_at_startup = 1
-
 """"""""""""""""""""""
 "      Settings      "
 """"""""""""""""""""""
@@ -15,7 +6,7 @@ filetype off                    " Reset filetype detection first ...
 filetype plugin indent on       " ... and enable filetype detection
 set ttyfast                     " Indicate fast terminal conn for faster redraw
 set ttymouse=xterm2             " Indicate terminal type for mouse codes
-"set mouse+=a                    " Copy with mouse (avoid line numbers)
+set mouse+=r                    " Copy with mouse (avoid line numbers)
 set ttyscroll=3                 " Speedup scrolling
 set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
@@ -63,7 +54,6 @@ syntax enable
 set t_Co=256
 let g:rehash256 = 1
 let g:molokai_original = 1
-colorscheme molokai
 
 """"""""""""""""""""""
 "      Mappings      "
