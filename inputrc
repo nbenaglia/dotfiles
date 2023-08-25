@@ -1,0 +1,6 @@
+# Respect default shortcuts.
+$include /etc/inputrc
+
+# Use Shift+Up/Down to search history
+"\e[1;2A": history-search-backward
+"\e[1;2B": history-search-forward
