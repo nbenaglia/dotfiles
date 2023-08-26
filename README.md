@@ -7,7 +7,7 @@ existing `~/.vimrc` first)
 
 ```
 $ cd
-$ git clone https://github.com/nicoben/vimrc.git
+$ git clone https://github.com/nicoben/my-bash.git
 $ ln -s -f vimrc/.vimrc
 ```
 Create symbolic links:
