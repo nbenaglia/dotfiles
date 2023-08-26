@@ -1,4 +1,4 @@
-# bash
+# my-bash
 
 Files to configure a practical bash environment.
 
