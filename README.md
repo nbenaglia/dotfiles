@@ -8,8 +8,8 @@ existing `~/.vimrc` first)
 ```
 $ cd
 $ git clone https://github.com/nicoben/my-bash.git
-$ ln -s -f vimrc/.vimrc
+$ ln -s -f my-bash/.vimrc
 ```
 Create symbolic links:
-- ln -s bash/vimrc .vimrc
-- ln -s bash/inputrc .inputrc
+- ln -s my-bash/vimrc .vimrc
+- ln -s my-bash/inputrc .inputrc
