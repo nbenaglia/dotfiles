@@ -15,6 +15,10 @@ ln -s ~/my-bash/inputrc .inputrc
 ```
 ## NVIM
 
+```
+ln -s ~/mybash/nvim ~/.config/nvim
+```
+
 Source: https://www.youtube.com/watch?v=mh_EJhH49Ms
 
 References:
