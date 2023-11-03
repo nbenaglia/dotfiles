@@ -5,9 +5,7 @@ set nocompatible                " Enables us Vim specific features
 filetype off                    " Reset filetype detection first ...
 filetype plugin indent on       " ... and enable filetype detection
 set ttyfast                     " Indicate fast terminal conn for faster redraw
-set ttymouse=xterm2             " Indicate terminal type for mouse codes
 set mouse+=r                    " Copy with mouse (avoid line numbers)
-set ttyscroll=3                 " Speedup scrolling
 set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
@@ -39,6 +37,15 @@ set nocursorline                " Do not highlight cursor (speeds up highlightin
 set lazyredraw                  " Wait to redraw
 set wildmenu					" Show a menu when using tab completion
 set scrolloff=10				" Number of lines from the top when Z command is typed
+
+if !has('nvim')
+	set ttymouse=xterm2             " Indicate terminal type for mouse codes
+    set ttyscroll=3                 " Speedup scrolling
+endif
+
+if exists(':tnoremap')
+    tnoremap <Esc> <C-\><C-n>
+endif
 
 if has('unnamedplus')
   set clipboard^=unnamed
