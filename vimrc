@@ -40,7 +40,7 @@ set scrolloff=10				" Number of lines from the top when Z command is typed
 
 if !has('nvim')
 	set ttymouse=xterm2             " Indicate terminal type for mouse codes
-    set ttyscroll=3                 " Speedup scrolling
+	set ttyscroll=3                 " Speedup scrolling
 endif
 
 if exists(':tnoremap')
