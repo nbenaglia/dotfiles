@@ -12,6 +12,7 @@ Create symbolic links from your $HOME:
 ```
 ln -s ~/my-bash/vimrc .vimrc
 ln -s ~/my-bash/inputrc .inputrc
+ln -s ~/my-bash/tmux.conf .tmux.conf
 ```
 ## NVIM
 
