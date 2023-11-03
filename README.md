@@ -8,8 +8,14 @@ existing `~/.vimrc` first)
 ```
 $ cd
 $ git clone https://github.com/nicoben/my-bash.git
-$ ln -s -f my-bash/.vimrc
 ```
+
 Create symbolic links:
-- ln -s my-bash/vimrc .vimrc
-- ln -s my-bash/inputrc .inputrc
+```
+ln -s my-bash/vimrc .vimrc
+ln -s my-bash/inputrc .inputrc
+
+# Neovim
+mkdir -p ~/.config/nvim/
+ln -s mybash/init.vim ~/.config/nvim/init.vim
+```
