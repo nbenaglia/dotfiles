@@ -15,6 +15,13 @@ ln -s ~/my-bash/inputrc .inputrc
 ```
 ## NVIM
 
+Source: https://www.youtube.com/watch?v=mh_EJhH49Ms
+
+References:
+- https://github.com/NvChad/NvChad
+- https://github.com/dreamsofcode-io/neovim-rust
+- https://github.com/neovim/neovim
+
 Install NVIM
 ```
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
@@ -23,11 +30,3 @@ chmod u+x nvim.appimage
 :wq
 ```
 
-Install configuration
-```
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
-```
-and then from `https://github.com/dreamsofcode-io/neovim-rust/tree/main`
-
-See:
-- https://github.com/neovim/neovim
