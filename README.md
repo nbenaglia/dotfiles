@@ -25,6 +25,7 @@ References:
 - https://github.com/NvChad/NvChad
 - https://github.com/dreamsofcode-io/neovim-rust
 - https://github.com/neovim/neovim
+- https://github.com/mfussenegger/nvim-dap
 
 Install NVIM
 ```
