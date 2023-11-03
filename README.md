@@ -14,8 +14,13 @@ Create symbolic links from your $HOME:
 ```
 ln -s ~/my-bash/vimrc .vimrc
 ln -s ~/my-bash/inputrc .inputrc
+```
+## NVIM
 
-# Neovim
-mkdir -p ~/.config/nvim/
-ln -s ~/mybash/init.vim ~/.config/nvim/init.vim
+Install NVIM
+
+Install configuration
+```
+git clone 
+
 ```
