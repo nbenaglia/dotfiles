@@ -20,8 +20,6 @@ ln -s ~/my-bash/tmux.conf .tmux.conf
 ln -s ~/mybash/nvim ~/.config/nvim
 ```
 
-Source: https://www.youtube.com/watch?v=mh_EJhH49Ms
-
 References:
 - https://github.com/NvChad/NvChad
 - https://github.com/dreamsofcode-io/neovim-rust
@@ -35,3 +33,6 @@ chmod u+x nvim.appimage
 ./nvim.appimage
 ```
 
+Tutorials
+- https://www.youtube.com/watch?v=mh_EJhH49Ms
+- https://www.youtube.com/watch?v=Mtgo-nP_r8Y
