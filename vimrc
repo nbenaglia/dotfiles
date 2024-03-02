@@ -9,6 +9,7 @@ set mouse+=r                    " Copy with mouse (avoid line numbers)
 set laststatus=2                " Show status line always
 set encoding=utf-8              " Set default encoding to UTF-8
 set autoread                    " Automatically read changed files
+set background=dark             " Set background
 set paste                       " Allow text pasting
 set shiftwidth=4				" Indentation space
 set tabstop=4					" Tabstop space
