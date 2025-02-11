@@ -1,0 +1,31 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "dtsvet.vscode-wasm",
+    "esbenp.prettier-vscode",
+    "fill-labs.dependi",
+    "golang.go",
+    "ms-python.debugpy",
+    "ms-python.isort",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "redhat.vscode-commons",
+    "redhat.vscode-yaml",
+    "rust-lang.rust-analyzer",
+    "trinm1709.dracula-theme-from-intellij",
+    "vadimcn.vscode-lldb"
+  ],
+
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": [
+    "timonwong.shellcheck",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format"
+  ]
+}
