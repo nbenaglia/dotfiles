@@ -1,5 +1,7 @@
 # dotfiles
 
+Inspired by: https://github.com/mathiasbynens/dotfiles/
+
 Files to configure a practical bash environment.
 
 To install, run the following from your terminal: (you may want to backup your
