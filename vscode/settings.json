@@ -22,5 +22,17 @@
     "explorer.confirmDragAndDrop": false,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.copyWithSyntaxHighlighting": false,
+    "window.titleBarStyle": "native",
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
