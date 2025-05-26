@@ -14,3 +14,6 @@ ln -s ~/dotfiles/config/.vimrc .vimrc
 ln -s ~/dotfiles/config/.inputrc .inputrc
 ln -s ~/dotfiles/config/.tmux.conf .tmux.conf
 ```
+
+For VSCODE:
+`$HOME/.config/Code/User/`
