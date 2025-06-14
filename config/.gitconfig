@@ -1,0 +1,11 @@
+[user]
+        name = <name>
+        email = <email>
+[gc]
+        pruneexpire = now
+[core]
+        autocrlf = input
+[pull]
+        rebase = true
+[alias]
+        cleanup = !git fetch --prune && git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -d
